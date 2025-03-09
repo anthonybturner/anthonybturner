@@ -49,6 +49,11 @@ pip install -r requirements.txt
         'PORT': '5432',
     }
 }
+or
+DATABASES = {
+    'default': dj_database_url.config(default=config('DATABASE_URL'))
+}
+
 ```
 
 ### 5.  Apply migrations:
