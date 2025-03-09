@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-green)
 
-This Django web application, built with Python 3.x, showcases my personal website and professional portfolio. It utilizes Django ORM, Django REST Framework, and a PostgreSQL database to efficiently manage and serve dynamic content.
+This Django web application, built with Python 3.x, showcases my personal website and professional portfolio. It utilizes Django ORM, python and django code management and a PostgreSQL database to efficiently manage and serve dynamic content.
 
  [AnthonyBTurner](https://anthonybturner.onrender.com/)
 ## Key Features
