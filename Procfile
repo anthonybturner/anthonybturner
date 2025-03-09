@@ -1,1 +1,1 @@
-web: gunicorn anthonybturner.wsgi:application
+web: gunicorn website.wsgi:application
