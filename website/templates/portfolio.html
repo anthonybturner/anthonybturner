@@ -1,11 +1,19 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block title %}Portfolio{% endblock %}
-
 {% block content %}
     <h2>My Portfolio</h2>
     <section class="portfolio">  
+         
+        <article class="project">
+            <h3>Rivals Watch - A Marvel Rivals Informational Website (WIP)</h3>
+            <img src="{% static 'images/marvel_rivals.png' %}" alt="Cinema Posters Anywhere" class="project-image"/>
+            <p><strong>Role:</strong> Full-stack Developer</p>
+            <p><strong>Description:</strong> A comprehensive website dedicated to Marvel Rivals, featuring in-depth tutorials, gameplay strategies, player statistics, and online matchmaking analytics. The platform offers detailed match histories, expert tips, and strategic insights to help players enhance their gameplay. With powerful backend APIs and a secure, private interface for managing and updating strategies, the site provides a personalized and engaging experience for all Marvel Rivals enthusiasts.</p>
+            <p><strong>Technologies Used:</strong> Django, Python, PostgreSQL, JavaScript, YouTube API</p>
+            <p><strong>Link:</strong> <a href="https://github.com/anthonybturner/RivalsWatch" target="_blank">View Project</a></p>
+        </article>
+
         <article class="project">
             <h3>Cinema Posters Anywhere</h3>
             <p><strong>Role:</strong>Full-stack Developer</p>
@@ -15,22 +23,13 @@
         </article>
 
         <article class="project">
-            <h3>Game Posters Anywhere</h3>
+            <h3>Game Posters Anywhere (WIP)</h3>
             <p><strong>Role:</strong> Full-stack Developer</p>
             <p><strong>Description:</strong> GamePostersAnywhere is an Android application currently in development. While playing a video game on Steam, the app displays real-time game information such as the game's title, achievements, maps, and other related data. It integrates with the Steam API to fetch the player’s current progress, achievements, and additional game-specific information, while also showcasing relevant content from the game like images, trailers, and gameplay tips from YouTube.</p>
             <p><strong>Technologies Used:</strong> Android, Java, XML, Steam API, YouTube API, RESTful APIs</p>
             <p><strong>Link:</strong> <a href="https://github.com/anthonybturner/gamepostersanywhere" target="_blank">View Project (Code has not been added to the repository yet).</a></p>
         </article>
-        
-        <article class="project">
-            <h3>Rivals Watch - A Marvel Rivals Informational Website</h3>
-            <img src="{% static 'images/marvel_rivals.png' %}" alt="Cinema Posters Anywhere" class="project-image"/>
-            <p><strong>Role:</strong> Full-stack Developer</p>
-            <p><strong>Description:</strong> A comprehensive website dedicated to Marvel Rivals, featuring in-depth tutorials, gameplay strategies, player statistics, and online matchmaking analytics. The platform offers detailed match histories, expert tips, and strategic insights to help players enhance their gameplay. With powerful backend APIs and a secure, private interface for managing and updating strategies, the site provides a personalized and engaging experience for all Marvel Rivals enthusiasts.</p>
-            <p><strong>Technologies Used:</strong> Django, Python, PostgreSQL, JavaScript, YouTube API</p>
-            <p><strong>Link:</strong> <a href="https://github.com/anthonybturner/RivalsWatch" target="_blank">View Project</a></p>
-        </article>
-
+       
         <article class="project">
             <h3>Home Cinema Theater</h3>
             <p><strong>Role:</strong> Designer & Developer</p>
