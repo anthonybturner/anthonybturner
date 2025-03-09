@@ -5,11 +5,11 @@
 
 {% block content %}
     <h2>My Portfolio</h2>
-    <section class="portfolio">
-        
+    <section class="portfolio">  
         <article class="project">
             <h3>Cinema Posters Anywhere</h3>
-            <p><strong>Role:</strong> Developer</p>
+            <img src="{% static 'images/marvel_rivals.png' %}" alt="Cinema Posters Anywhere" class="project-image"/>
+            <p><strong>Role:</strong>Full-stack Developer</p>
             <p><strong>Description:</strong> An application I created to interact with playing movies, displaying dynamic posters and related information while a movie is playing.</p>
             <p><strong>Technologies Used:</strong> Android, Java, XML, RESTful APIs, Google Analytics</p>
             <p><strong>Link:</strong> <a href="https://github.com/anthonybturner/CinemaPostersAnywhere" target="_blank">View Project</a></p>
@@ -17,7 +17,7 @@
 
         <article class="project">
             <h3>Game Posters Anywhere</h3>
-            <p><strong>Role:</strong> Developer</p>
+            <p><strong>Role:</strong> Full-stack Developer</p>
             <p><strong>Description:</strong> GamePostersAnywhere is an Android application currently in development. While playing a video game on Steam, the app displays real-time game information such as the game's title, achievements, maps, and other related data. It integrates with the Steam API to fetch the player’s current progress, achievements, and additional game-specific information, while also showcasing relevant content from the game like images, trailers, and gameplay tips from YouTube.</p>
             <p><strong>Technologies Used:</strong> Android, Java, XML, Steam API, YouTube API, RESTful APIs</p>
             <p><strong>Link:</strong> <a href="https://github.com/anthonybturner/gamepostersanywhere" target="_blank">View Project (Code has not been added to the repository yet).</a></p>
@@ -38,7 +38,5 @@
             <p><strong>Technologies Used:</strong> Home automation systems, Projectors, Custom Design</p>
             <p><strong>Link:</strong> N/A</p>
         </article>
-
     </section>
-
 {% endblock %}
