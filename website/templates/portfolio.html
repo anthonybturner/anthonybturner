@@ -2,9 +2,10 @@
 {% load static %}
 {% block title %}Portfolio{% endblock %}
 {% block content %}
-    <h2>My Portfolio</h2>
+
     <section class="portfolio">  
-         
+        <h3>My Portfolio</h3>
+        <img src="{% static 'images/banner.jpg' %}" alt="banner image" class="banner-image"/>
         <article class="project">
             <h3>Rivals Watch - A Marvel Rivals Informational Website (WIP)</h3>
             <img src="{% static 'images/marvel_rivals.png' %}" alt="Marvel Rivals image" class="project-image"/>
