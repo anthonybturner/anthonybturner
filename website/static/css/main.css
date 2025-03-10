@@ -167,23 +167,28 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media ((min-width:501px) and (max-width: 768px)) {
     .navbar{
-        display: inline-grid;
+        display: table-footer-group;
     }
+    .navbar a{
+        padding: 12px 9px;
+    };
     body {
         text-align: center;
     }
     section {
         padding: 30px;
     }
+    
 }
 /* mobile Responsive Design */
-@media (max-width: 480px) {
+@media ((min-width: 0) and (max-width: 500px)) {
 
     .navbar{
         display: inline-grid;
     }
+
     /* Styles for very small screens */
     .menu {
         display: flex;

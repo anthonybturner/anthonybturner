@@ -12,7 +12,7 @@ body {
 /* Header */
 
 header {
-    background-color: #4e3679;
+    background: #4e3679;
     color: white;
     padding: 25px;
     text-align: center;
@@ -39,11 +39,7 @@ h2 {
     color: #00dac6;
     text-align: center;
     max-width: 1000px;
-    margin: 40px auto;
-    padding: 40px;
-    background-color: #20232A;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
 }
 
 h3 {
@@ -89,7 +85,10 @@ section {
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-
+section#header {
+    max-width: 1080px;
+    padding: 0;
+}
 /* Alternating Section Colors */
 section:nth-child(even) {
     background-color: #181A1F;
@@ -145,6 +144,16 @@ img {
     height: auto;
     border-radius: 8px;
 }
+img.project-image {
+    height: auto;
+    width: 100%;
+    object-fit: none;
+}
+img.banner-image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* Footer */
 footer {
@@ -158,11 +167,36 @@ footer {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media ((min-width:501px) and (max-width: 768px)) {
+    .navbar{
+        display: table-footer-group;
+    }
+    .navbar a{
+        padding: 12px 9px;
+    };
     body {
         text-align: center;
     }
     section {
         padding: 30px;
     }
+    
 }
+/* mobile Responsive Design */
+@media ((min-width: 0) and (max-width: 500px)) {
+
+    .navbar{
+        display: inline-grid;
+    }
+
+    /* Styles for very small screens */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .menu li {
+        margin: 10px 0;
+      }
+  }
+  
