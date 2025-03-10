@@ -168,6 +168,9 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .navbar{
+        display: inline-grid;
+    }
     body {
         text-align: center;
     }
@@ -175,3 +178,20 @@ footer {
         padding: 30px;
     }
 }
+/* mobile Responsive Design */
+@media (max-width: 480px) {
+
+    .navbar{
+        display: inline-grid;
+    }
+    /* Styles for very small screens */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .menu li {
+        margin: 10px 0;
+      }
+  }
+  
