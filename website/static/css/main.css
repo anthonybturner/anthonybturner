@@ -251,10 +251,18 @@ footer {
 }
 /* mobile Responsive Design */
 @media ((min-width: 0) and (max-width: 500px)) {
-
+    header{
+        padding: 0;
+        background: #000000;
+    }
     .navbar{
         display: inline-grid;
+        justify-content: unset;
+        width: 100%;
     }
+    .navbar a{
+        border-bottom: 1px solid #ccc;
+    };
 
     /* Styles for very small screens */
     .menu {
