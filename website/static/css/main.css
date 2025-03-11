@@ -180,7 +180,7 @@ li::before {
     content: "▶";
     color: #03DAC6;
     position: absolute;
-    left: 0;
+    left: -5px;
 }
 
 /* Read More Button */
@@ -272,6 +272,9 @@ footer {
     }
     .navbar a{
         border-bottom: 1px solid #ccc;
+    }
+    body {
+        font-size: 1.1rem;
     }
     section{    
         max-width: 100%;
