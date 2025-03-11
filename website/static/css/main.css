@@ -273,6 +273,9 @@ footer {
     .navbar a{
         border-bottom: 1px solid #ccc;
     }
+    .banner h2{
+        font-size: 1.5em;
+    }
     body {
         font-size: 1.1rem;
     }
