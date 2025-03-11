@@ -1,6 +1,7 @@
 /* General Styles */
 html, body{
     overflow-x: hidden; /* Disable horizontal scroll */
+    width: 100vw; /* Ensure it takes the full viewport width */
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -26,7 +27,6 @@ header {
 a {
     color: #fff;
     transition: color 0.3s;
-
 }
 
 a:hover {
