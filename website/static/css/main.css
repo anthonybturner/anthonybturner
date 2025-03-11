@@ -44,16 +44,19 @@ h2 {
 
 h3 {
     color: #00dac6;
-    border-bottom: 1px solid #ccc;
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
+article.job h4, article.education-item h4 {
+    border-bottom: none;
+}
 h4{
+    color: #00dac6;
     font-size: 1.4rem;
-    color: #E0E0E0;
     margin: 0;
+    border-bottom: 1px solid #ccc;
 }
 h5{
     margin: 0;
@@ -77,8 +80,6 @@ h5{
     transform: translateX(-100%);
     animation: slideIn 2s ease-in-out forwards;
 }
-
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -93,6 +94,32 @@ p {
     color: #E0E0E0;
     line-height: 1.8;
 }
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+
+/** Sliding banner **/
+.sliding-text {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.sliding-text h3{
+    display: inline-block;
+    position: relative;
+    animation: bounceLeftRight 5s ease-in-out infinite alternate;
+}
+
+@keyframes bounceLeftRight {
+    from { transform: translateX(0%); }
+    to { transform: translateX(50%); }
+}
+
 
 /* Main Content Spacing */
 .welcome {

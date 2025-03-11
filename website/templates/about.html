@@ -4,8 +4,13 @@
 {% block title %}About Me{% endblock %}
 
 {% block content %}
-    <section class="about">
+<section id="banner"  class="banner">
+    <h2>A little about me...</h2>
+    <img src="{% static 'images/cyber_banner.jpg' %}" alt="banner image" class="banner-image"/>
+</section>
+    <section class="about sliding-text">
         <h3>About Me</h3>
+        <hr/>
         <img src="{% static 'images/banner.jpg' %}" alt="banner image" class="banner-image"/>
         <article>
             <h4>Professional Background</h4>
@@ -15,7 +20,7 @@
         </article>
         
         <article>
-            <h3>Personal Interests</h3>
+            <h4>Personal Interests</h4>
             <p>In my personal time, I love playing video games, especially Marvel Rivals, Apex Legends, and Cities Skylines 1 and 2. 
                 I am also a movie enthusiast and have created a home cinema theater with a 150" projector screen and projector. 
                 Additionally, I have been developing a few applications: Cinema Posters Anywhere and Game Posters Anywhere to interact with playing movies and games (respectively), enhancing the cinematic and gaming experience.</p>

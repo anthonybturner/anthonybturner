@@ -6,7 +6,7 @@
 {% block content %}
 
 <section id="banner"  class="banner">
-    <h2>Welcome to my online portfolio!</h2>
+    <h2>Welcome to my portfolio!</h2>
     <img src="{% static 'images/cyber_banner.jpg' %}" alt="banner image" class="banner-image"/>
 </section>
 <section id="header">
@@ -20,8 +20,9 @@
 </section>
 
     <!-- Key Skills Section -->
-    <section id="skills">
-        <h3>Key Skills & Technologies</h3>
+    <section id="skills" class="sliding-text">
+        <h3>Key Skills & Technologies</h5>
+        <hr/>
         <ul>
             <li><strong>Languages:</strong> C#, C++, Java, Python, Swift, JavaScript, PHP</li>
             <li><strong>Mobile Development:</strong> Android (Java, Kotlin, SDK), iOS (Swift, React Native)</li>
@@ -36,8 +37,9 @@
     </section>
 
     <!-- Work Experience Section -->
-    <section id="work-experience">
+    <section id="work-experience" class="sliding-text">
         <h3>Work Experience</h3>
+        <hr/>
         <article class="job">
             <h4>Full-Stack Developer</h4>
             <h5>Rimer Cardillo - Gardiner, NY | August 2013 - Present</h5>
@@ -146,8 +148,9 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education">
+    <section id="education" class="sliding-text">
         <h3>Education</h3>
+        <hr/>
         <article class="education-item">
             <h4>Bachelor of Science in Computer Science</h4>
             <h5>State University of New Paltz - New Paltz, NY | 2014 - 2018</h5>
@@ -181,8 +184,9 @@
     </section>
 
     <!-- Certifications Section -->
-    <section id="certifications">
+    <section id="certifications" class="sliding-text">
         <h3>Certifications</h3>
+        <hr/>
         <ul>
             <li><strong>CompTIA A+ Certification</strong> – Achieved: 2011</li>
         </ul>

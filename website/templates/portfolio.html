@@ -3,11 +3,16 @@
 {% block title %}Portfolio{% endblock %}
 {% block content %}
 
-    <section class="portfolio">  
+    <section id="banner"  class="banner">
+        <h2>Please, have a look at my portfolio!</h2>
+        <img src="{% static 'images/cyber_banner.jpg' %}" alt="banner image" class="banner-image"/>
+    </section>
+    <section class="portfolio sliding-text">
         <h3>My Portfolio</h3>
+        <hr/>
         <img src="{% static 'images/banner.jpg' %}" alt="banner image" class="banner-image"/>
         <article class="project">
-            <h3>Rivals Watch - A Marvel Rivals Informational Website (WIP)</h3>
+            <h4>Rivals Watch - A Marvel Rivals Informational Website (WIP)</h4>
             <img src="{% static 'images/marvel_rivals.png' %}" alt="Marvel Rivals image" class="project-image"/>
             <p><strong>Role:</strong> Full-stack Developer</p>
             <p><strong>Description:</strong> A comprehensive website dedicated to Marvel Rivals, featuring in-depth tutorials, gameplay strategies, player statistics, and online matchmaking analytics. The platform offers detailed match histories, expert tips, and strategic insights to help players enhance their gameplay. With powerful backend APIs and a secure, private interface for managing and updating strategies, the site provides a personalized and engaging experience for all Marvel Rivals enthusiasts.</p>
@@ -16,7 +21,7 @@
         </article>
 
         <article class="project">
-            <h3>Cinema Posters Anywhere</h3>
+            <h4>Cinema Posters Anywhere</h4>
             <p><strong>Role:</strong>Full-stack Developer</p>
             <p><strong>Description:</strong> An application I created to interact with playing movies, displaying dynamic posters and related information while a movie is playing.</p>
             <p><strong>Technologies Used:</strong> Android, Java, XML, RESTful APIs, Google Analytics</p>
@@ -24,7 +29,7 @@
         </article>
 
         <article class="project">
-            <h3>Game Posters Anywhere (WIP)</h3>
+            <h4>Game Posters Anywhere (WIP)</h4>
             <p><strong>Role:</strong> Full-stack Developer</p>
             <p><strong>Description:</strong> GamePostersAnywhere is an Android application currently in development. While playing a video game on Steam, the app displays real-time game information such as the game's title, achievements, maps, and other related data. It integrates with the Steam API to fetch the player’s current progress, achievements, and additional game-specific information, while also showcasing relevant content from the game like images, trailers, and gameplay tips from YouTube.</p>
             <p><strong>Technologies Used:</strong> Android, Java, XML, Steam API, YouTube API, RESTful APIs</p>
@@ -32,7 +37,7 @@
         </article>
        
         <article class="project">
-            <h3>Home Cinema Theater</h3>
+            <h4>Home Cinema Theater</h4>
             <p><strong>Role:</strong> Designer & Developer</p>
             <p><strong>Description:</strong> Designed and developed a home cinema theater with a 150" projector screen and interactive systems to enhance movie-watching experiences.</p>
             <p><strong>Technologies Used:</strong> Home automation systems, Projectors, Custom Design</p>

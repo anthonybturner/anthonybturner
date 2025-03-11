@@ -4,10 +4,14 @@
 {% block title %}Contact{% endblock %}
 
 {% block content %}
-
+    <section id="banner"  class="banner">
+        <h2>Feel free to contact me!</h2>
+        <img src="{% static 'images/cyber_banner.jpg' %}" alt="banner image" class="banner-image"/>
+    </section>
     <!-- Education Section -->
-    <section id="contact">
+    <section id="contact" class="sliding-text">
         <h3>Contact</h3>
+        <hr/>
         <img src="{% static 'images/banner.jpg' %}" alt="banner image" class="banner-image"/>
         <article class="contact-item">
             <h4>Feel free to reach out to me via email or social media.</h4>
