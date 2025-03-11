@@ -244,10 +244,20 @@ footer {
     body {
         text-align: center;
     }
-    section {
-        padding: 30px;
+
+    section{    
+        /* max-width: 100%; */
+        margin: 8px 24px 8px 8px;
+        padding: 8px;
+        background-color: #20232A;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
-    
+    .sliding-text {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
 }
 /* mobile Responsive Design */
 @media ((min-width: 0) and (max-width: 500px)) {
@@ -262,8 +272,15 @@ footer {
     }
     .navbar a{
         border-bottom: 1px solid #ccc;
-    };
-
+    }
+    section{    
+        max-width: 100%;
+        margin: 8px 24px 8px 8px;
+        padding: 8px;
+        background-color: #20232A;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
     /* Styles for very small screens */
     .menu {
         display: flex;
@@ -273,5 +290,10 @@ footer {
       .menu li {
         margin: 10px 0;
       }
+      .sliding-text {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
   }
   
