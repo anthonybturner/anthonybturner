@@ -24,6 +24,25 @@ header {
     letter-spacing: 2px;
     font-weight: bold;
 }
+#backToTop {
+    position: fixed; /* Keeps it floating */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+    background-color: #00dac6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    display: none; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out;
+}
+
+#backToTop:hover {
+    background-color: #008f8c;
+}
 a {
     color: #fff;
     transition: color 0.3s;
